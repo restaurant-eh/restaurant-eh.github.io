@@ -49,6 +49,15 @@
     color: #801212;
     font-size: 22px;
     font-weight: bold;
+    margin: 0px auto;
+}
+
+.getraenk-inhalt {
+    color: #801212;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px auto;
 }
 
 .getraenk-beschreibung {
