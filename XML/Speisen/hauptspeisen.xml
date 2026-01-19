@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hauptspeisen>
+	<fleisch>
+		<hauptspeise>
+			<name>Gefüllte Paprika</name>
+			<beschreibung>Paprika gefüllt mit Faschiertem und Reis, in Tomatensauce gekocht.</beschreibung>
+			<preis>14.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Rindergulasch</name>
+			<beschreibung>Langsam geschmortes Rindfleisch in Paprika-Zwiebel-Sauce.</beschreibung>
+			<preis>15.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Gefülltes Kraut</name>
+			<beschreibung>Mit Faschiertem und Reis gefülltes Sauerkraut mit Selchfleisch. langsam gekocht.</beschreibung>
+			<preis>13.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Schweinshaxe nach Bäckerinnenart</name>
+			<beschreibung>Gebratene Schweinshaxe mit Kartoffeln und Zwiebeln.</beschreibung>
+			<preis>29.90</preis>
+		</hauptspeise>
+	</fleisch>
+	
+	<gefluegel>
+		<hauptspeise>
+			<name>Hühnerpaprikasch</name>
+			<beschreibung>Hühnerfleisch in cremiger Paprikasauce mit Sauerrahm und Nockerl.</beschreibung>
+			<preis>16.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Gebratene Entenbrust</name>
+			<beschreibung>Knusprig gebratene Entenbrust mit würzigem Rotkraut.</beschreibung>
+			<preis>19.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Gegrillte Hühnerbrust</name>
+			<beschreibung>Würzig mariniert Hühnerbrust vom Grill.</beschreibung>
+			<preis>14.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Gebratener Fasan</name>
+			<beschreibung>Ganz Fasan knusprig gebraten mit würziger Sause und Gemüse.</beschreibung>
+			<preis>24.90</preis>
+		</hauptspeise>
+	</gefluegel>
+
+	<fisch>
+		<hauptspeise>
+			<name>Gebackener Seehecht</name>
+			<beschreibung>Paniertes Seehechtfilet knusprig gebacken.</beschreibung>
+			<preis>13.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Gegrilltes Lachsfilet</name>
+			<beschreibung>Lachsfilet vom Grill mit Zitrone.</beschreibung>
+			<preis>9.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Wels-Paprikagericht mit Maultaschen</name>
+			<beschreibung>Wels in Paprikasauce mit Maultaschen und knusprigem Speck.</beschreibung>
+			<preis>17.90</preis>
+		</hauptspeise>
+
+		<hauptspeise>
+			<name>Gebackener Karpfen</name>
+			<beschreibung>Frischer Karpfen im klassischer Panade gebacken.</beschreibung>
+			<preis>12.90</preis>
+		</hauptspeise>
+	</fisch>
+</hauptspeisen>

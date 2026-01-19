@@ -1,0 +1,291 @@
+.menu-section {
+    background-color: white;
+    padding: 30px 20px;
+    min-height: 600px;
+}
+
+.menu-title {
+    text-align: center;
+    color: #801212;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+.menu-untertitle {
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: #1d661d;
+    font-size: 28px;
+    font-weight: bold;
+    border-top: 5px solid #801212;
+    border-bottom: 5px solid #1d661d;
+    margin: 0px 10px;
+    padding: 1px;
+}
+
+.menu-container {
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 1%;
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: separate;
+    width: auto;
+    margin: 10px auto;
+    border-spacing: 5px;
+}
+
+.wochentag {
+    background-color: #801212;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* .wochentag:hover {
+    background-color: #1d661d;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px black;
+} */
+
+.kategori {
+    background-color: #1d661d;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    vertical-align: middle;
+    border-radius: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.gerichte {
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin: 20px;
+    border-left: 4px solid #1d661d;
+    border-top: 4px solid #801212;
+    vertical-align: top;
+    position: relative;
+    height: 150px;
+    width: 200px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.gericht-name {
+    font-weight: bold;
+    color:#801212;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.gericht-beschreibung {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.gericht-preis {
+    color: #1d661d;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mobile-menu-container {
+    display: none;
+}
+
+@media (max-width: 1200px) and (min-width: 769px) {
+    .menu-table {
+        display: none;
+    }
+    
+    .mobile-menu-container {
+        display: block;
+    }
+
+    .menu-title {
+        font-size: 39px;
+    }
+
+    .menu-untertitle {
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+
+    .mobile-tag-karte {
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .mobile-wochentag {
+        background-color: #801212;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin: 20px 20px 0px 20px;
+        text-transform: uppercase;
+    }
+
+    .mobile-gerichte {
+        background-color: white;
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px;
+        border: 3px solid #801212;
+        box-shadow: 0px 5px 15px black;
+    }
+
+    .mobile-kategori {
+        color: black;
+        background: linear-gradient(45deg, #801212, white, #1d661d);
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0px auto;
+        padding: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 15px;
+    }
+
+    .mobile-gericht-name {
+        color: #801212;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin: 15px 0px 0px;
+    }
+
+    .mobile-gericht-beschreibung {
+        color: black;
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .mobile-gericht-preis {
+        color:white;
+        background: #1d661d;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 8px;
+        margin: 0px 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-table {
+        display: none;
+    }
+    
+    .mobile-menu-container {
+        display: block;
+    }
+
+    .menu-title {
+        font-size: 32px;
+    }
+
+    .menu-untertitle {
+        font-size: 18px;
+        margin: 0px 10px;
+    }
+
+    .mobile-tag-karte {
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .mobile-wochentag {
+        background-color: #801212;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin: 20px 20px 0px 20px;
+        text-transform: uppercase;
+    }
+
+    .mobile-gerichte {
+        background-color: white;
+        border-radius: 15px;
+        margin: 20px;
+        padding: 10px;
+        border: 3px solid #801212;
+        box-shadow: 0px 5px 15px black;
+    }
+
+    .mobile-kategori {
+        color: black;
+        background: linear-gradient(45deg, #801212, white, #1d661d);
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0px auto;
+        padding: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 15px;
+    }
+
+    .mobile-gericht-name {
+        color: #801212;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin: 15px 0px 0px;
+    }
+
+    .mobile-gericht-beschreibung {
+        color: black;
+        font-size: 14px;
+        font-style: italic;
+        margin-bottom: 15px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .mobile-gericht-preis {
+        color:white;
+        background: #1d661d;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 8px;
+        margin: 0px 130px;
+    }
+}

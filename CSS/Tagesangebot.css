@@ -1,0 +1,208 @@
+.tagesangebot-section {
+    background-color: white;
+    padding: 30px 20px;
+    min-height: 600px;
+}
+
+.section-title {
+    text-align: center;
+    color: #801212;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+.section-untertitle {
+    text-align: center;
+    font-family: 'Times New Roman';
+    color: #1d661d;
+    font-size: 28px;
+    font-weight: bold;
+    border-top: 5px solid #801212;
+    border-bottom: 5px solid #1d661d;
+    margin: 0px 10px;
+    padding: 1px;
+}
+
+.angebot-card {
+    background: #801212;
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.angebot-card:hover {
+    transform: translateY(-5px);
+    background-color: #1d661d;
+    box-shadow: 0px 15px 40px #1d661d;
+}
+
+.angebot-image {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    margin: 0px 0px 25px 50px;
+    border-radius: 20px;
+}
+
+.angebot-details {
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 300px;
+    border-radius: 20px;
+    margin: 0px 40px 30px 0px;
+}
+
+.angebot-name {
+    font-size: 32px;
+    color: #801212;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.angebot-beschreibung {
+    color: #1d661d;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.original-price {
+    font-size: 22px;
+    color: #801212;
+    text-decoration: line-through;
+}
+
+.angebot-price {
+    font-size: 40px;
+    color: #1d661d;
+    font-weight: bold;
+}
+
+.angebot-höhe {
+    background: linear-gradient(45deg, #801212, white, white, #1d661d);
+    color: rgb(250, 172, 4);
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 1200px) and (min-width: 769px) {
+    .section-title {
+        font-size: 39px;
+    }
+
+    .section-untertitle {
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+
+    .angebot-image {
+        height: auto;
+        width: 90%;
+        margin: 25px auto;
+        display: block;
+    }
+
+    .angebot-details {
+        margin: 0px auto 30px;
+        width: 90%;
+    }
+
+    .angebot-name {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .angebot-beschreibung {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .original-price {
+        font-size: 20px;
+    }
+
+    .angebot-price {
+        font-size: 35px;
+    }
+
+    .angebot-höhe {
+        padding: 6px 16px;
+        font-size: 17px;
+        margin-top: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 32px;
+    }
+
+    .section-untertitle {
+        font-size: 21px;
+    }
+
+    .angebot-card {
+        margin-bottom: 20px;
+    }
+
+    .angebot-image {
+        height: auto;
+        width: 85%;
+        margin: 25px auto;
+        display: block;
+    }
+
+    .angebot-details {
+        padding: 20px;
+        margin: 0px auto 30px;
+        width: 90%;
+        min-height: 60%;
+    }
+
+    .angebot-name {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .angebot-beschreibung {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .price-container {
+        gap: 12px;
+    }
+
+    .original-price {
+        font-size: 18px;
+    }
+
+    .angebot-price {
+        font-size: 30px;
+    }
+
+    .angebot-höhe {
+        padding: 6px 14px;
+        font-size: 14px;
+        margin-top: 11px;
+    }
+}

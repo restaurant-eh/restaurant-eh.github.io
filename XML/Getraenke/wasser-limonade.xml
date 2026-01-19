@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wasser_limonade>
+	<wasser>
+		<getraenk>
+			<name>Stilles Wasser</name>
+			<beschreibung>(0,5l)</beschreibung>
+			<preis>2.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Mineralwasser</name>
+			<beschreibung>(0,5l)</beschreibung>
+			<preis>2.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Mineralwasser mit Kohlensäure</name>
+			<beschreibung>(0,5l)</beschreibung>
+			<preis>2.70</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Leicht prickelndes Wasser</name>
+			<beschreibung>(0,5l)</beschreibung>
+			<preis>2.70</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Tafelwasser</name>
+			<beschreibung>(1l)</beschreibung>
+			<preis>2.00</preis>
+		</getraenk>
+	</wasser>
+	
+	<limonade>
+		<getraenk>
+			<name>Zitronenlimonade</name>
+			<beschreibung>Erfrischende Limonade aus frischem Zitronensaft. (0,5l)</beschreibung>
+			<preis>4.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Erdbeerlimonade</name>
+			<beschreibung>Limonade aus Epersirup mit friscen Erdbeeren.(0,5l)</beschreibung>
+			<preis>4.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Himmbeerlimonade</name>
+			<beschreibung>Limonade aus Himmbeersirup mit friscen Himmbeeren.(0,5l)</beschreibung>
+			<preis>4.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Holunderlimonade</name>
+			<beschreibung>Holunderblütenlimonade mit Zitrone und Minze.(0,5l)</beschreibung>
+			<preis>4.90</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Fruchtlimonade des Hauses</name>
+			<beschreibung>Hausgemachte Fruchtlimonade aus verscidenen Früchten(0,5l)</beschreibung>
+			<preis>4.90</preis>
+		</getraenk>
+	</limonade>
+</wasser_limonade>

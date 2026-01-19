@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vorspeisen>
+	<kaltes>
+		<vorspeise>
+			<name>Kalte Holzplatte</name>
+			<beschreibung>Auswahl an Schinken, Aufschnitt und Käse, serviert mit frischem Gemüse, Butter und Brot.</beschreibung>
+			<preis>39.90</preis>
+		</vorspeise>
+
+		<vorspeise>
+			<name>Käseplatte</name>
+			<beschreibung>Auswahl verschiedener Käsesorten, serviert mit Nüssen, Trauben, Butter und Brot.</beschreibung>
+			<preis>24.90</preis>
+		</vorspeise>
+
+		<vorspeise>
+			<name>Aufschnittplatte</name>
+			<beschreibung>Schinken-, Salami- und Wurstauswahl mit frischem Gemüse und Brot.</beschreibung>
+			<preis>24.90</preis>
+		</vorspeise>
+
+		<vorspeise>
+			<name>Beefsteak Tatar</name>
+			<beschreibung>Fein gehacktes gewürztes Rindfleisch mit Eigelb.</beschreibung>
+			<preis>34.90</preis>
+		</vorspeise>
+	</kaltes>
+	
+	<warmes>
+		<vorspeise>
+			<name>Knoblauchtoast</name>
+			<beschreibung>Geröstetes Brot mit Knoblauch und Butter.</beschreibung>
+			<preis>6.90</preis>
+		</vorspeise>
+
+		<vorspeise>
+			<name>Gebackenes Brot im Ei</name>
+			<beschreibung>In Ei gebackene Brotscheiben, mit Knoblauch und Sauerrahm.</beschreibung>
+			<preis>9.90</preis>
+		</vorspeise>
+
+		<vorspeise>
+			<name>Gebackene Champignons</name>
+			<beschreibung>Frische Champignons in knuspriger Panade, mit Dip serviert.</beschreibung>
+			<preis>14.90</preis>
+		</vorspeise>
+
+		<vorspeise>
+			<name>Gebackene Hühnerleber</name>
+			<beschreibung>Hühnerleber in würziger Panade, mit Dip serviert.</beschreibung>
+			<preis>14.90</preis>
+		</vorspeise>
+	</warmes>
+</vorspeisen>

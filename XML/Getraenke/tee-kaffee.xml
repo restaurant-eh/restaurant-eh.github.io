@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tee_kaffee>
+	<tee>
+		<getraenk>
+			<name>Schwarzer Tee</name>
+			<beschreibung>Klassischer schwarzer Tee</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Früchtetee</name>
+			<beschreibung>Koffeinfreier Früchtetee</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Kamillentee</name>
+			<beschreibung>Beruhigender Kamillentee</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Pfefferminztee</name>
+			<beschreibung>Erfrischender Pfefferminztee</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Grüner Tee</name>
+			<beschreibung>Leichter, aromatischer grüner Tee</beschreibung>
+			<preis>3.00</preis>
+		</getraenk>
+	</tee>
+	
+	<kaffee>
+		<getraenk>
+			<name>Expresso</name>
+			<beschreibung>Kräftiger, kurzer Kaffee</beschreibung>
+			<preis>2.40</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Kaffee</name>
+			<beschreibung>Klassischer schwarzer Kaffee</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Cappuccino</name>
+			<beschreibung>Kaffee mit Milchschaum</beschreibung>
+			<preis>3.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Latte Macchiato</name>
+			<beschreibung>Milchkaffe mit Expresso</beschreibung>
+			<preis>3.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Melange</name>
+			<beschreibung>Kaffee mit heißer Milch zu gleichen Teilen</beschreibung>
+			<preis>3.20</preis>
+		</getraenk>
+	</kaffee>
+</tee_kaffee>

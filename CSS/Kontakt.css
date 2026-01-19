@@ -1,0 +1,471 @@
+.kontakt-section {
+    background-color: white;
+    padding: 30px 20px;
+    min-height: 600px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #801212;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman';
+}
+
+.section-untertitle {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #1d661d;
+    border-top: 5px solid #801212;
+    border-bottom: 5px solid #1d661d;
+    margin: 0px 10px;
+    padding: 1px;
+}
+
+.kontakt-container {
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+.kontakt-container .row {
+    display: flex;
+    align-items: stretch;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 610px;
+    border: 5px solid #801212;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 35px 20px 40px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+.kontakt-info {
+    background-color: rgb(248, 248, 248);
+    border: 4px solid #1d661d;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    margin: 30px 20px 0px;
+}
+
+.kontakt-info h3 {
+    color: #801212;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #1d661d;
+    padding-bottom: 10px;
+}
+
+.info-artikel {
+    font-size: 18px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.info-icon {
+    font-size: 24px;
+    color: #801212;
+    min-width: 35px;
+    margin-right: 15px
+}
+
+.info-text {
+    color: black;
+}
+
+.info-text strong {
+    color: #1d661d;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-info {
+    background-color: rgb(248, 248, 248);
+    color: black;
+    font-size: 18px;
+    border-left: 5px solid #1d661d;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px 20px 30px;
+    line-height: 1.5;
+}
+
+.form-info strong {
+    color: #1d661d;
+    display: block;
+    margin-top: 10px;
+}
+
+.kontakt-form {
+    background-color: rgb(248, 248, 248);
+    border: 4px solid #801212;
+    border-radius: 10px;
+    padding: 10px 30px 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    margin: 20px 20px 0px;
+}
+
+.pflichtfelder-text {
+    background-color: #801212;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.form-group label {
+    color: #801212;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.form-kontrolle {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 15px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.form-kontrolle:focus {
+    border-color: #1d661d;
+    box-shadow: 0px 0px 8px black;
+    outline: none;
+}
+
+.form-kontrolle:valid {
+    border-color:#1d661d;
+}
+
+.form-kontrolle:invalid:not(:placeholder-shown) {
+    border-color: #801212;
+}
+
+textarea.form-kontrolle {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.pflichtfelder {
+    color: #801212;
+    font-weight: bold;
+}
+
+.dsgvo-checkbox {
+    margin: 25px auto;
+    font-size: 14px;
+}
+
+.dsgvo-checkbox a:hover {
+    color: #1d661d;
+}
+
+.btn-senden {
+    background-color: #801212;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-senden:hover {
+    background-color: #1d661d;
+    box-shadow: 0px 8px 20px black;
+    transform: translateY(-3px);
+}
+
+.success-rückmeldung {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 98, 98, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.success-rückmeldung:target {
+    display: flex;
+}
+
+.success-message {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    border: 5px solid #1d661d;
+}
+
+.success-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.success-message h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #801212;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman';
+}
+
+.success-message p {
+    font-size: 18px;
+    color: #1d661d;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.close-rückmeldung-btn {
+    background-color: #801212;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 12px 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+}
+
+.close-rückmeldung-btn:hover {
+    background: #1d661d;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .section-title {
+        font-size: 39px;
+    }
+
+    .section-untertitle {
+        font-size: 25px;
+        margin: 0px 10px 35px;
+    }
+
+    .map-container {
+        width: 90%;
+        margin: 0px 15px 35px;
+    }
+
+    .margin-container iframe {
+        height: 350px;
+    }
+
+    .kontakt-info {
+        margin: 25px 15px 35px;
+        padding: 20px;
+    }
+
+    .kontakt-info h3 {
+        font-size: 25px;
+    }
+
+    .info-artikel {
+        font-size: 17px;
+        margin-bottom: 18px;
+    }
+
+    .info-icon {
+        font-size: 22px;
+        min-width: 32px;
+    }
+
+    .form-info {
+        font-size: 17px;
+        padding: 10px 15px;
+        margin: 0px 15px 25px;
+    }
+
+    .kontakt-form {
+        padding: 15px 25px 20px;
+        margin: 15px 15px 25px;
+    }
+
+    .pflichtfelder-text {
+        font-size: 11px;
+        padding: 6px 12px;
+        margin: 8px auto 15px;
+    }
+
+    .form-group label {
+        font-size: 17px;
+    }
+
+    .form-kontrolle {
+        padding: 11px;
+        font-size: 15px;
+    }
+
+    .btn-senden {
+        padding: 14px 35px;
+        font-size: 17px;
+    }
+
+    .success-message {
+        padding: 35px 30px;
+        max-width: 450px;
+    }
+
+    .success-icon {
+        font-size: 70px;
+    }
+
+    .success-message h3 {
+        font-size: 28px;
+    }
+
+    .success-message p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    .kontakt-section {
+        padding: 20px 10px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .section-untertitle {
+        font-size: 20px;
+        margin: 0px 10px;
+        padding: 5px;
+    }
+
+    .map-container {
+        width: 96%;
+        margin: 0px 10px 30px;
+    }
+
+    .map-container iframe {
+        height: 300px;
+    }
+
+    .kontakt-info {
+        padding: 20px 15px;
+        margin: 20px 10px 30px;
+    }
+
+    .kontakt-info h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+    }
+
+    .info-artikel {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .info-icon {
+        font-size: 20px;
+        min-width: 28px;
+        margin-right: 12px;
+    }
+
+    .form-info {
+        font-size: 16px;
+        padding: 15px;
+        margin: 10px 10px 25px;
+    }
+
+    .kontakt-form {
+        padding: 10px 20px 15px;
+        margin: 15px 10px 25px;
+    }
+
+    .pflichtfelder-text {
+        font-size: 10px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .form-kontrolle {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .dsgvo-checkbox {
+        font-size: 10px;
+    }
+
+    .btn-senden {
+        padding: 13px 30px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .success-message {
+        padding: 30px 20px;
+        max-width: 90%;
+    }
+
+    .success-icon {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .success-message h3 {
+        font-size: 26px;
+        margin-bottom: 12px;
+    }
+
+    .success-message p {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .close-rückmeldung-btn {
+        padding: 10px 25px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}

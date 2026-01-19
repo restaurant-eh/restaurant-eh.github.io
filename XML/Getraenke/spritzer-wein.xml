@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spritzer_wein>
+	<spritzer>
+		<getraenk>
+			<name>Kleiner Spritzer</name>
+			<weinbasis>Weißwein oder Rose</weinbasis>
+			<verhaeltnis>1dl Wein : 1dl Soda</verhaeltnis>
+			<beschreibung>Weißwein oder Rose mit Soda im Verhältnis 1:1.</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Großer Spritzer</name>
+			<weinbasis>Weißwein oder Rose</weinbasis>
+			<verhaeltnis>2dl Wein : 1dl Soda</verhaeltnis>
+			<beschreibung>Weißwein oder Rose mit Soda im Verhältnis 2:1.</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Langer Schritt</name>
+			<weinbasis>Weißwein</weinbasis>
+			<verhaeltnis>1dl Wein : 2dl Soda</verhaeltnis>
+			<beschreibung>Leichter Weinspritzer mit mehr Soda 1:2.</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Haus-Spritzer</name>
+			<weinbasis>Hauswein-weiß</weinbasis>
+			<verhaeltnis>1,5dl Wein : 1,5dl Soda</verhaeltnis>
+			<beschreibung>Hausewein mit Soda im ausgewogenen Verhältnis.</beschreibung>
+			<preis>2.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Sport-Spritzer</name>
+			<weinbasis>Weißwein oder Rose</weinbasis>
+			<verhaeltnis>1dl Wein : 3dl Soda</verhaeltnis>
+			<beschreibung>Sehr leichter Spritzer mit viel Soda 1:3.</beschreibung>
+			<preis>3.00</preis>
+		</getraenk>
+	</spritzer>
+	
+	<wein>
+		<getraenk>
+			<name>Tokaji Furmint</name>
+			<kategorie>Weißwein - trocken</kategorie>
+			<alkohol>13,0</alkohol>
+			<beschreibung>Frischer Weißwein mit Apfel- und Zitrusnoten.</beschreibung>
+			<preis>26,00</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Tokaji Furmint</name>
+			<kategorie>Dessertwein - süß</kategorie>
+			<alkohol>13,5</alkohol>
+			<beschreibung>Süßer Tokajer Weißwein mit Honig- und Trockenfruchtaromen..</beschreibung>
+			<preis>29,00</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Szekszárdi Rose</name>
+			<kategorie>Rose - trocken</kategorie>
+			<alkohol>12,0</alkohol>
+			<beschreibung>Fruchtiger Rosewein mit Erdbeer- und Himbeeraromen.</beschreibung>
+			<preis>23,00</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Egri Bikavér</name>
+			<kategorie>Rotwein - halbtrocken</kategorie>
+			<alkohol>13,5</alkohol>
+			<beschreibung>Würziger, vollmundiger Rotwein mit dunklen Beeren.</beschreibung>
+			<preis>27,00</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Villányi Portugieser</name>
+			<kategorie>Rotwein - trocken</kategorie>
+			<alkohol>12,5</alkohol>
+			<beschreibung>Weicher, fruchtiger Rotwein mit Kirscharomen.</beschreibung>
+			<preis>25,00</preis>
+		</getraenk>
+	</wein>
+</spritzer_wein>

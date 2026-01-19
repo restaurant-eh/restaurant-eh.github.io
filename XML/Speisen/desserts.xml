@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<desserts>
+	<klassische>
+		<dessert>
+			<name>Somloer Nockerl</name>
+			<beschreibung>Lagen von Biskuit, Schokoladencreme, Rum und Schlagobers.</beschreibung>
+			<preis>5.90</preis>
+		</dessert>
+
+		<dessert>
+			<name>Topfenstrudel</name>
+			<beschreibung>Hausgemachter Strudel gefüllt mit Quark, bestäubt mit Puderzucker.</beschreibung>
+			<preis>5.49</preis>
+		</dessert>
+
+		<dessert>
+			<name>Dobostorte Stück</name>
+			<beschreibung>Biskuitstück mit Schokoladen-Buttercreme und Karamellkruste.</beschreibung>
+			<preis>4.90</preis>
+		</dessert>
+
+		<dessert>
+			<name>Gundel-Pfannkuchen</name>
+			<beschreibung>Pfannkuchen mit Walnüssen, überzogen mit Schokolade und Rum.</beschreibung>
+			<preis>5.90</preis>
+		</dessert>
+	</klassische>
+	
+	<eissorbets>
+		<dessert>
+			<name>Eis</name>
+			<beschreibung>Verschiedene Sorten 5-10 Geschmacksrichtungen.</beschreibung>
+			<preis>2.90</preis>
+		</dessert>
+
+		<dessert>
+			<name>Eisbecher</name>
+			<beschreibung>VerschiedeneEissorten im Becher, mit Schokoladen, Schlagobers und Zukerstreuseln.</beschreibung>
+			<preis>7.90</preis>
+		</dessert>
+
+		<dessert>
+			<name>Frucht-Eisbecher</name>
+			<beschreibung>Vanilleeis mit frischen Früchten mit Zartbitterschokoladensauce.</beschreibung>
+			<preis>7.49</preis>
+		</dessert>
+
+		<dessert>
+			<name>Sorbet</name>
+			<beschreibung>Drei Sorten (Schokolade, Vanille, Erdbeere) im Schälchen.</beschreibung>
+			<preis>3.49</preis>
+		</dessert>
+	</eissorbets>
+</desserts>

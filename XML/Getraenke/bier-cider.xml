@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bier_cider>
+	<bier>
+		<getraenk>
+			<name>Borsodi Hell</name>
+			<inhalt>0,5</inhalt>
+			<alkohol>4,5</alkohol>
+			<beschreibung>Leichtes, erfrischendes helles Bier.</beschreibung>
+			<preis>4.30</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Soproni Classic</name>
+			<inhalt>0,5</inhalt>
+			<alkohol>5,0</alkohol>
+			<beschreibung>Klassisches ungarisches Lagerbier mit leichter Malznote.</beschreibung>
+			<preis>4.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Horizont APA</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>5,2</alkohol>
+			<beschreibung>Leichtes American Pale Ale mit Zitrusnoten.</beschreibung>
+			<preis>5.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Mad Scientist IPA</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>6,0</alkohol>
+			<beschreibung>Stark hopfiges IPA mit Zitrus- und Tropenaromen.</beschreibung>
+			<preis>5.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Fehér Nyúl IPA</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>6,2</alkohol>
+			<beschreibung>Klassischer ungarisches IPA mit kräftiger Hopfennote.</beschreibung>
+			<preis>5,70</preis>
+		</getraenk>
+	</bier>
+	
+	<cider>
+		<getraenk>
+			<name>Somersby Pear Cider</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>4,5</alkohol>
+			<beschreibung>Fruchtiger Birnencider mit frischer Birnenscheiben im Glas.</beschreibung>
+			<preis>4.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Somersby Apple Cider</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>4,5</alkohol>
+			<beschreibung>Fruchtiger Apfelcider mit frischer Apfelscheiben im Glas.</beschreibung>
+			<preis>4.80</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Somersby Mango-Lime</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>4,5</alkohol>
+			<beschreibung>Erfrischender cider mit Mango und Lime im Glas.</beschreibung>
+			<preis>4.90</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Somersby Blackberry Cider</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>4,5</alkohol>
+			<beschreibung>Fruchtiger Brombeercider mit frischer Beeren im Glas.</beschreibung>
+			<preis>4.90</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Strongbow Apple Cider</name>
+			<inhalt>0,33</inhalt>
+			<alkohol>4,5</alkohol>
+			<beschreibung>Trockener Apfelcider mit frischer Apfelscheiben im Glas.</beschreibung>
+			<preis>5.20</preis>
+		</getraenk>
+	</cider>
+</bier_cider>

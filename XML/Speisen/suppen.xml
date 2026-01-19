@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suppen>
+	<kaltes>
+		<suppe>
+			<name>Kalte Fruchtsuppe</name>
+			<beschreibung>Kalte Suppe aus saisonalen Früchten mit Obers verfeinert.</beschreibung>
+			<preis>12.90</preis>
+		</suppe>
+
+		<suppe>
+			<name>Gurkensuppe</name>
+			<beschreibung>Kalte Gurkensuppe mit Jughurt, Knoblauch und frischem Dill.</beschreibung>
+			<preis>10.90</preis>
+		</suppe>
+
+		<suppe>
+			<name>Tomatensuppe</name>
+			<beschreibung>Leichte, kalt servirte Suppe aus frischen Tomaten.</beschreibung>
+			<preis>11.90</preis>
+		</suppe>
+
+		<suppe>
+			<name>Sauerkirschsuppe</name>
+			<beschreibung>Erfrischende, süßliche Suppe mit Zimt und Obers verfeinert.</beschreibung>
+			<preis>11.90</preis>
+		</suppe>
+	</kaltes>
+	
+	<warmes>
+		<suppe>
+			<name>Hühnersuppe</name>
+			<beschreibung>Klare Hühnersuppe mit Hühnerfleich, frischem Gemüse und Nudeln.</beschreibung>
+			<preis>13.90</preis>
+		</suppe>
+
+		<suppe>
+			<name>Gulaschsuppe</name>
+			<beschreibung>Würzige ungarische Suppe mit Rindfleich, Paprika und Kartoffeln.</beschreibung>
+			<preis>15.90</preis>
+		</suppe>
+
+		<suppe>
+			<name>Knoblauchsuppe</name>
+			<beschreibung>Cremige Knoblauchsuppe mit gerösteten Brotwürfeln.</beschreibung>
+			<preis>11.90</preis>
+		</suppe>
+
+		<suppe>
+			<name>Gemüsesuppe</name>
+			<beschreibung>Leichte Suppe aus frischem Gemüse.</beschreibung>
+			<preis>10.90</preis>
+		</suppe>
+	</warmes>
+</suppen>

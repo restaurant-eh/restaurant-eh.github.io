@@ -1,0 +1,307 @@
+.reservierung-section {
+    background-color: white;
+    padding: 30px 20px;
+    min-height: 600px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #801212;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman';
+}
+
+.section-untertitle {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #1d661d;
+    border-top: 5px solid #801212;
+    border-bottom: 5px solid #1d661d;
+    margin: 0px 10px;
+    padding: 1px;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 0px auto;
+    background: rgb(248, 248, 248);
+    padding: 10px 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    border: 5px solid #801212;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #801212;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.form-kontrolle {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 15px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.form-kontrolle:focus {
+    border-color: #1d661d;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+.form-kontrolle:valid {
+    border-color:#1d661d;
+}
+
+.form-kontrolle:invalid:not(:placeholder-shown) {
+    border-color: #801212;
+}
+
+textarea.form-kontrolle {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.pflichtfelder {
+    color: #801212;
+    font-weight: bold;
+}
+
+.dsgvo-checkbox {
+    margin: 25px auto;
+    font-size: 14px;
+}
+
+.dsgvo-checkbox a:hover {
+    color: #1d661d;
+}
+
+.btn-reservieren {
+    background-color: #801212;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-reservieren:hover {
+    background-color: #1d661d;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+
+
+.pflichtfelder-text {
+    background-color: #801212;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.success-rückmeldung {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(102, 98, 98, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.success-rückmeldung:target {
+    display: flex;
+}
+
+.success-message {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    border: 5px solid #1d661d;
+}
+
+.success-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.success-message h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #801212;
+    margin-bottom: 15px;
+}
+
+.success-message p {
+    font-size: 18px;
+    color: #1d661d;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.close-rückmeldung-btn {
+    background-color: #801212;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 12px 30px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.close-rückmeldung-btn:hover {
+    background: #1d661d;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1200px) and (min-width: 769px) {
+    .section-title {
+        font-size: 39px;
+    }
+
+    .section-untertitle {
+        font-size: 25px;
+        margin: 0px 15px;
+    }
+
+    .form-container {
+        max-width: 600px;
+        padding: 10px 30px 20px;
+    }
+
+    .form-group label {
+        font-size: 16px;
+    }
+    
+    .form-kontrolle {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn-reservieren {
+        font-size: 14px;
+    }
+
+    .success-message {
+        padding: 35px;
+        max-width: 450px;
+    }
+
+    .success-message h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .reservierung-section {
+        padding: 20px 10px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .section-untertitle {
+        font-size: 20px;
+        margin: 0px 10px;
+        padding: 5px;
+    }
+
+    .form-container {
+        max-width: 100%;
+        padding: 10px 40px 20px;
+        margin-top: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+
+    .form-kontrolle {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    textarea.form-kontrolle {
+        min-height: 100px;
+    }
+
+    .dsgvo-checkbox {
+        font-size: 10px;
+    }
+
+    .btn-reservieren {
+        font-size: 16px;
+    }
+
+    .pflichtfelder-text {
+        font-size: 10px;
+    }
+
+    .success-message {
+        border-radius: 15px;
+        padding: 25px;
+    }
+
+    .success-icon {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+
+    .success-message h3 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .success-message p {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .close-rückmeldung-btn {
+        font-size: 14px;
+        padding: 10px 25px;
+        margin-top: 15px;
+    }
+}

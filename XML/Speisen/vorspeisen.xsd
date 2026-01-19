@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://a.org/vorspeisen.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://a.org/vorspeisen.xsd"
+    xmlns:mstns="http://a.org/vorspeisen.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="vorspeisen">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="vorspeise" maxOccurs="10">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="beschreibung" type="xs:string"/>
+							<xs:element name="preis" type="xs:decimal"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

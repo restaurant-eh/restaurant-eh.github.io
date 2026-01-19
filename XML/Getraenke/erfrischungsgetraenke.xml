@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<erfrischungsgetraenke>
+	<kohlensaeure>
+		<getraenk>
+			<name>Coca Cola</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Fanta Orange</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Sprite</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Almdudler</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>2.90</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Kinley Tonic Water</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.50</preis>
+		</getraenk>
+	</kohlensaeure>
+	
+	<fruchtsaefte>
+		<getraenk>
+			<name>Orangensaft</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Pfirsichnektar</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Aprikosensaft</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Multivitaminsaft</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Ananassaft</name>
+			<beschreibung>(0,33l)</beschreibung>
+			<preis>3.20</preis>
+		</getraenk>
+	</fruchtsaefte>
+</erfrischungsgetraenke>

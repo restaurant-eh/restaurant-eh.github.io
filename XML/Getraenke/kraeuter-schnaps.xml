@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kraeuter-schnaps>
+	<kraeuter>
+		<getraenk>
+			<name>Unicum</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>40</alkohol>
+			<beschreibung>Ungarischer Kräuterlikör aus über 40 Kräutern im Holzfass gereift.</beschreibung>
+			<preis>2.80 / 5.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Zwack Original</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>40</alkohol>
+			<beschreibung>Traditioneller ungarischer Kräuterlikör aus erlesenen Kräutern, rund und komplex im Geschmack.</beschreibung>
+			<preis>2.80 / 5.20</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Stroh 80</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>80</alkohol>
+			<beschreibung>Markanter österreichischer Kräuterlikör mit intensiven Botanicals und kräftiger Würze.</beschreibung>
+			<preis>2.90 / 5.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Gurktaler Alpenkräuter</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>27</alkohol>
+			<beschreibung>Österreichischer, alpiner Kräuterlikör, mit frischem, würzigem Geschmack.</beschreibung>
+			<preis>2.00 / 3.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Fernet</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>39</alkohol>
+			<beschreibung>Kräftiger Kräuterlikör mit intensiv bitterem Geschmack und kräftigem Abgang.</beschreibung>
+			<preis>3.20 / 6.00</preis>
+		</getraenk>
+	</kraeuter>
+	
+	<schnaps>
+		<getraenk>
+			<name>Apfelobstbrände</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>40</alkohol>
+			<beschreibung>Frischer ungarischer Apfelbrand mit feiner Säure und klarem Fruchtgescjmack.</beschreibung>
+			<preis>3.50 / 6.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Marillenobstbrände</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>42</alkohol>
+			<beschreibung>Duftender ungarischer Aprikosenbrand mit fruchtiger Süße und weichem Abgang.</beschreibung>
+			<preis>3.50 / 6.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Birneobstbrände</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>42</alkohol>
+			<beschreibung>Aromatischer ungarischer Birnenbrand mit frischer, leicht süßlicher Note.</beschreibung>
+			<preis>3.50 / 6.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Zwetschgenbrand</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>40</alkohol>
+			<beschreibung>Vollmundiger Zwetschgenbrand mit tiefen Fruchtaromen und leichter Würze.</beschreibung>
+			<preis>3.00 / 5.50</preis>
+		</getraenk>
+
+		<getraenk>
+			<name>Williamsbirne</name>
+			<inhalt>2 / 4</inhalt>
+			<alkohol>40</alkohol>
+			<beschreibung>Kräftiger Birnenbrand mit intensiver Williamsbirnen-Aromatik.</beschreibung>
+			<preis>3.00 / 5.50</preis>
+		</getraenk>
+	</schnaps>
+</kraeuter-schnaps>

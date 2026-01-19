@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beilagen>
+	<kartoffeln>
+		<kartoffel>
+			<name>Süßkartoffeln</name>
+			<beschreibung>Gebackene oder frittierte Süßkartoffeln.</beschreibung>
+			<preis>4.49</preis>
+		</kartoffel>
+
+		<kartoffel>
+			<name>Ofenkartoffeln</name>
+			<beschreibung>Würzige Ofenkartoffeln mit Zwiebeln bebacken.</beschreibung>
+			<preis>3.90</preis>
+		</kartoffel>
+
+		<kartoffel>
+			<name>Petersilienkartoffeln</name>
+			<beschreibung>Gekochte Kartoffeln mit frischer Petersilie und Butter.</beschreibung>
+			<preis>4.49</preis>
+		</kartoffel>
+
+		<kartoffel>
+			<name>Kartoffelpüree</name>
+			<beschreibung>Cremiges Kartoffelpüree mit Butter und Milch.</beschreibung>
+            <preis>3.49</preis>
+		</kartoffel>
+	</kartoffeln>
+	
+	<sonstige>
+		<sonstig>
+			<name>Erbsenreis</name>
+			<beschreibung>In Butter gedünsteter Reis mit grünen Erbsen.</beschreibung>
+			<preis>3.90</preis>
+		</sonstig>
+
+		<sonstig>
+			<name>Nockerln</name>
+			<beschreibung>Hausgemachte, frisch gekochte ungarische Nockerln.</beschreibung>
+			<preis>4.49</preis>
+		</sonstig>
+
+		<sonstig>
+			<name>Eiergraupen (Tarhonya)</name>
+			<beschreibung>Geröstete Eiergraupen, traditionelle ungarische Beilage.</beschreibung>
+			<preis>3.90</preis>
+		</sonstig>
+
+		<sonstig>
+			<name>Gedünstetes Gemüse</name>
+			<beschreibung>Gemischtes gemüse schonend gedünstet.</beschreibung>
+			<preis>3.49</preis>
+		</sonstig>
+	</sonstige>
+</beilagen>

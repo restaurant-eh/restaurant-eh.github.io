@@ -1,0 +1,87 @@
+.dsgvo-section {
+    background-color: white;
+    padding: 30px 20px;
+    min-height: 600px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #801212;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman';
+}
+
+.section-untertitle {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    color: #1d661d;
+    border-top: 5px solid #801212;
+    border-bottom: 5px solid #1d661d;
+    margin: 0px 10px;
+    padding: 1px;
+}
+
+.dsgvo-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #dddddd50;
+    padding: 35px 30px;
+    border: 5px solid #801212;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.dsgvo-container h2 {
+    font-size: 22px;
+    color: #1d661d;
+    font-weight: bold;
+    margin: 40px 0px 15px;
+    border-bottom: 2px solid #801212;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin: 15px 0px 20px 20px;
+    padding-left: 20px;
+}
+
+a {
+    color: #801212;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #1d661d;
+    text-decoration: none;
+}
+
+p a {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .dsgvo-section {
+        padding: 25px 20px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p ul li {
+        font-size: 14px;
+    }
+}

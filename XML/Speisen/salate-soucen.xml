@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<salate-soucen>
+	<salate>
+		<salat>
+			<name>Gurkensalat</name>
+			<beschreibung>Frischer Gurkensalat mit Essigmarinade, Zwibeln und Gewürzen.</beschreibung>
+			<preis>4.49</preis>
+		</salat>
+
+		<salat>
+			<name>Tomatensalat</name>
+			<beschreibung>Frische Tomaten mit Zwibeln, fein gewürzt.</beschreibung>
+			<preis>3.90</preis>
+		</salat>
+
+		<salat>
+			<name>Krautsalat</name>
+			<beschreibung>Fein Salat aus Weißkraut, leicht säuerlich mariniert.</beschreibung>
+			<preis>4.49</preis>
+		</salat>
+
+		<salat>
+			<name>Essiggurken</name>
+			<beschreibung>Knackige Essiggurken, sauer eingelegt.</beschreibung>
+            <preis>3.49</preis>
+		</salat>
+	</salate>
+	
+	<soucen>
+		<souce>
+			<name>Souce Tartare</name>
+			<beschreibung>Mayonnaisesauce mit fein gehackten Essiggurken.</beschreibung>
+			<preis>4.49</preis>
+		</souce>
+
+		<souce>
+			<name>Knoblauch-Sauerrahm</name>
+			<beschreibung>Sauerrahm mit Knoblauch und Salz verfeinert.</beschreibung>
+			<preis>3.90</preis>
+		</souce>
+
+		<souce>
+			<name>Paprikasouce</name>
+			<beschreibung>Warme Paprikasouce, light pikant.</beschreibung>
+			<preis>3.90</preis>
+		</souce>
+
+		<souce>
+			<name>Kapernsouce</name>
+			<beschreibung>Cremige Sauce mit Kapern.</beschreibung>
+			<preis>4.49</preis>
+		</souce>
+	</soucen>
+</salate-soucen>
