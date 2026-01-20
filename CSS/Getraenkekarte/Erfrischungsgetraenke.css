@@ -74,3 +74,36 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media (max-width: 1200px) {
+    .section-title {
+        font-size: 35px;
+    }
+    
+    .section-untertitle {
+        font-size: 20px;
+    }
+    
+    .getraenk {
+        padding: 10px;
+        margin: 15px auto;
+    }
+    
+    .getraenk-name {
+        font-size: 18px;
+    }
+    
+    .getraenk-inhalt {
+        font-size: 14px;
+    }
+    
+    .getraenk-beschreibung {
+        color: black;
+        font-style: italic;
+        padding-bottom: 10px;
+    }
+    
+    .getraenk-preis {
+        font-size: 16px;
+    }
+}

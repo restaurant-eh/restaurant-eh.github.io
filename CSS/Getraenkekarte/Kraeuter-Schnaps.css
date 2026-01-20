@@ -103,6 +103,10 @@
     .getraenk-inhalt {
         font-size: 14px;
     }
+
+    .getraenk-alkohol {
+        font-size: 14px;
+    }
     
     .getraenk-beschreibung {
         color: black;
