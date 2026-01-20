@@ -319,8 +319,9 @@
     }
 
     .form-kontrolle {
-        padding: 10px;
-        font-size: 13px;
+        padding: 5px;
+        font-size: 10px;
+        box-sizing: border-box;
     }
 
     .dsgvo-checkbox {
