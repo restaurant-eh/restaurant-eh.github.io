@@ -229,7 +229,7 @@
     .mobile-wochentag {
         background-color: #801212;
         color: white;
-        font-size: 20px;
+        font-size: 18px;
         padding: 15px;
         font-weight: bold;
         text-align: center;
@@ -286,6 +286,6 @@
         text-align: center;
         padding: 5px;
         border-radius: 8px;
-        margin: 0px 80px;
+        margin: 0px 70px;
     }
 }

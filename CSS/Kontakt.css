@@ -396,14 +396,14 @@ textarea.form-kontrolle {
     }
 
     .info-artikel {
-        font-size: 16px;
+        font-size: 12px;
         margin-bottom: 15px;
     }
 
     .info-icon {
-        font-size: 20px;
+        font-size: 14px;
         min-width: 28px;
-        margin-right: 12px;
+        margin-right: 0px;
     }
 
     .form-info {
@@ -436,13 +436,14 @@ textarea.form-kontrolle {
     }
 
     .dsgvo-checkbox {
+        margin: 15px auto;
         font-size: 10px;
     }
 
     .btn-senden {
-        padding: 13px 30px;
-        font-size: 16px;
-        margin-top: 15px;
+        padding: 13px 20px;
+        font-size: 12px;
+        margin-top: 0px;
     }
 
     .success-message {

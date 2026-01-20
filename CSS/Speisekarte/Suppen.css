@@ -65,3 +65,29 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+@media (max-width: 1200px) {
+    .section-title {
+        font-size: 35px;
+    }
+    
+    .section-untertitle {
+        font-size: 22px;
+    }
+
+    .gericht {
+        margin: 20px auto;
+    }
+
+    .gericht-name {
+        font-size: 18px;
+    }
+
+    .gericht-beschreibung {
+        font-size: 14px;
+    }
+    
+    .gericht-preis {
+        font-size: 18px;
+    }
+}
