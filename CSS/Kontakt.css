@@ -386,7 +386,7 @@ textarea.form-kontrolle {
     .kontakt-info {
         padding: 20px 5px;
         margin: 20px 10px 30px;
-        overflow: hidden;
+        overflow-wrap: break-word;
     }
 
     .kontakt-info h3 {
