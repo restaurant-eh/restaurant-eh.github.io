@@ -81,7 +81,7 @@
 }
 
 .original-price {
-    font-size: 22px;
+    font-size: 25px;
     color: #801212;
     text-decoration: line-through;
 }
@@ -141,7 +141,7 @@
     }
 
     .angebot-price {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .angebot-höhe {
@@ -193,11 +193,11 @@
     }
 
     .original-price {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .angebot-price {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .angebot-höhe {
