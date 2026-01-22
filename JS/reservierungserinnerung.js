@@ -1,3 +1,4 @@
+
 function handleFormSubmit(event) {
 
     const form = event.target;
@@ -31,6 +32,7 @@ function handleFormSubmit(event) {
     textData += "Ihr Erzählende Häppchen Team\n";
     textData += '='.repeat(28) + '\n\n';
 
+    const bom = new Uint8Array([0xEF, 0xBB, 0xBF]);
     const blob = new Blob([textData], { type: 'text/plain;charset=utf-8'});
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');

@@ -175,6 +175,10 @@ header {
         margin: 0px 10px;
     }
 
+    .row h4 {
+        font-size: 22px;
+    }
+
     .motto-rechte {
         font-size: 10px;
     }

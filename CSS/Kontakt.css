@@ -300,7 +300,7 @@ textarea.form-kontrolle {
     }
 
     .info-artikel {
-        font-size: 17px;
+        font-size: 15px;
         margin-bottom: 18px;
     }
 
@@ -386,7 +386,6 @@ textarea.form-kontrolle {
     .kontakt-info {
         padding: 20px 5px;
         margin: 20px 10px 30px;
-        overflow-wrap: break-word;
     }
 
     .kontakt-info h3 {
@@ -403,7 +402,7 @@ textarea.form-kontrolle {
     .info-icon {
         font-size: 14px;
         min-width: 28px;
-        margin-right: 0px;
+        margin: 0px 5px;
     }
 
     .form-info {
