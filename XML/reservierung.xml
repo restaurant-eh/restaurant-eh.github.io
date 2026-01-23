@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reservierung>
+    <zeitstempel>{zeitstempel}</zeitstempel>
+    <vorname>{vorname}</vorname>
+    <nachname>{nachname}</nachname>
+    <email>{email}</email>
+    <telefon>{telefon}</telefon>
+    <datum>{datum}</datum>
+    <uhrzeit>{uhrzeit}</uhrzeit>
+    <personen>{personen}</personen>
+    <anmerkungen>{anmerkungen}</anmerkungen>
+</reservierung>
