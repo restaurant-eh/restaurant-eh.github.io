@@ -4,7 +4,9 @@ body {
 
 header { 
     background-color: #801212;
-    position: relative;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 
 .header-container {
@@ -17,6 +19,8 @@ header {
 .logo {
     background-color: white;
     border-radius: 15px;
+    width: 230px;
+    height: 200px;
 }
 
 .name-box {
@@ -81,6 +85,70 @@ header {
     border-color: white;
 }
 
+.sidenav {
+    background-color: white;
+    height: auto;
+    width: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    overflow-x: hidden;
+    padding-top: 45px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+.sidenav a {
+    color: #1d661d;
+    font-size: 20px;
+    padding: 5px 25px;
+    display: block;
+    transition: all 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+    background-color:#1d661d;
+    color: white;
+    padding-left: 35px;
+}
+
+.sidenav a:active {
+    background-color: #1d661d;
+    border-left: 5px solid #801212;
+    color: white;
+}
+
+.sidenav .closebtn {
+    background: #1d661d;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    margin: 0px auto;
+    padding-bottom: 1px;
+    transition: all 0.3s;
+    border: none;
+}
+
+.sidenav .closebtn:hover {
+    background: #801212;
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
+    padding-bottom: 3px;
+    transform: translateY(-1px);
+}
+
 .footer {
     background-color: #1d661d;
     color: white;
@@ -143,28 +211,43 @@ header {
 
 @media (max-width: 768px) {
     .header-container {
-        flex-direction: column;
-        padding: 15px;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    .logo {
+        height: 70px;
+        width: 80px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .logo:hover {
+        transform: scale(1.05);
+    }
+
+    .name-box{
+        padding: 10px;
+        border: 2px solid white;
     }
 
     .name-box h1 {
-        font-size: 25px;
+        font-size: 18px;
+        margin-bottom: 3px;
     }
 
     .name-box h3 {
-        font-size: 18px;
+        font-size: 14px;
+        margin-bottom: 3px;
     }
 
     .name-box h6 {
-        font-size: 12px;
+        font-size: 11px;
+        margin-bottom: 0px;
     }
 
     .nav-buttons {
-        flex-direction: column;
-    }
-
-    .nav-link-item {
-        width: 100%;
+        display: none;
     }
 
     .footer .btn {

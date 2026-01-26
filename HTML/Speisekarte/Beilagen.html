@@ -14,9 +14,21 @@
     <link rel="shortcut icon" href="/Bilder/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div id="mySidenav" class="sidenav">
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+        <a href="/HTML/Startseite.html">Startseite</a>
+        <a href="/HTML/Uber_Uns.html">Über Uns</a>
+        <a href="/HTML/Speisekarte.html" class="active">Speisekarte</a>
+        <a href="/HTML/Getraenkekarte.html">Getränkekarte</a>
+        <a href="/HTML/Tagesangebot.html">Tagesangebot</a>
+        <a href="/HTML/W_Menu.html">Wöchentliches Menü</a>
+        <a href="/HTML/Galerie.html">Galerie</a>
+        <a href="/HTML/Kontakt.html">Kontakt</a>
+    </div>
+
     <header>
         <div class="header-container">
-            <img src="/Bilder/Logo Restaurant.png" alt="Logo groß" class="logo" width="230" height="200">
+            <img src="/Bilder/Logo Restaurant.png" alt="Logo groß" class="logo" onclick="openNav()">
 
             <div class="name-box">
                 <h1>Restaurant Erzählende Häppchen</h1>
@@ -115,5 +127,6 @@
     </footer>
 
     <script src="/JS/Speisen/beilagen.js"></script>
+    <script src="../../JS/navbar.js"></script>
 </body>
 </html>
