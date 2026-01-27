@@ -94,7 +94,7 @@
     font-size: 26px;
     color: black;
     border-radius: 15px;
-    padding: 10px 0px;
+    padding: 10px 5px;
     text-align: center;
     margin: 0px auto;
     max-width: 900px;
@@ -191,7 +191,7 @@
     }
 
     .geschichte-text h3 {
-        font-size: 22px;
+        font-size: 18px;
         margin-right: 12px;
     }
 

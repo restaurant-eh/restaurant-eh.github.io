@@ -73,8 +73,12 @@ p a {
         padding: 25px 20px;
     }
 
+    .dsgvo-container {
+        padding: 25px 30px;
+        border: 3px solid #801212;
+    }
+
     .dsgvo-container h2 {
-        padding: 20px;
         margin: 20px 0px 15px;
     }
 

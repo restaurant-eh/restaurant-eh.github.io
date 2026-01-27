@@ -1,4 +1,4 @@
-.kraeuter-schnaps-section {
+.salate-soucen-section {
     background-color: white;
     padding: 30px 20px;
     min-height: 600px;
@@ -25,7 +25,7 @@
     padding: 1px;
 }
 
-.kraeuter-schnaps-container {
+.salate-soucen-container {
     max-width: 1400px;
     margin: 0px auto;
     text-align: center;
@@ -34,7 +34,7 @@
     flex-wrap: wrap;
 }
 
-.getraenk {
+.gericht {
     width: 220px;
     background-color: white;
     padding: 15px;
@@ -45,35 +45,19 @@
     margin: 30px auto;
 }
 
-.getraenk-name {
+.gericht-name {
     color: #801212;
     font-size: 22px;
     font-weight: bold;
-    margin: 0px auto;
 }
 
-.getraenk-inhalt {
-    color: #801212;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-    margin: 0px auto;
-}
-
-.getraenk-alkohol {
-    color: #801212;
-    font-weight: bold;
-    font-style: italic;
-    margin: 0px auto;
-}
-
-.getraenk-beschreibung {
+.gericht-beschreibung {
     color: black;
     font-style: italic;
     padding-bottom: 10px;
 }
 
-.getraenk-preis {
+.gericht-preis {
     color: #1d661d;
     font-size: 20px;
     position: absolute;
@@ -84,37 +68,26 @@
 
 @media (max-width: 1200px) {
     .section-title {
-        font-size: 30px;
+        font-size: 35px;
     }
     
     .section-untertitle {
-        font-size: 20px;
-    }
-    
-    .getraenk {
-        padding: 10px;
-        margin: 15px auto;
-    }
-    
-    .getraenk-name {
-        font-size: 18px;
-    }
-    
-    .getraenk-inhalt {
-        font-size: 14px;
+        font-size: 22px;
     }
 
-    .getraenk-alkohol {
+    .gericht {
+        margin: 20px auto;
+    }
+
+    .gericht-name {
+        font-size: 18px;
+    }
+
+    .gericht-beschreibung {
         font-size: 14px;
     }
     
-    .getraenk-beschreibung {
-        color: black;
-        font-style: italic;
-        padding-bottom: 10px;
-    }
-    
-    .getraenk-preis {
-        font-size: 16px;
+    .gericht-preis {
+        font-size: 18px;
     }
 }

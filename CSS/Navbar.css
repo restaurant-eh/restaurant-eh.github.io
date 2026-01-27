@@ -115,10 +115,11 @@ header {
     padding-left: 35px;
 }
 
-.sidenav a:active {
+.sidenav a.active {
     background-color: #1d661d;
     border-left: 5px solid #801212;
     color: white;
+    font-weight: bold;
 }
 
 .sidenav .closebtn {
