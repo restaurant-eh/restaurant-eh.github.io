@@ -25,19 +25,44 @@
     padding: 1px;
 }
 
+.reservierung-section .row {
+    align-items: center;
+}
+
+.reservierung-section .col-sm-12 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.reservierung-bild {
+    border: 5px solid #1d661d;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+
 .form-container {
     max-width: 700px;
-    margin: 0px auto;
+    margin: 10px auto;
     background: rgb(248, 248, 248);
-    padding: 10px 40px 20px;
+    padding: 0px 20px 20px;
     border-radius: 20px;
     box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
     border: 5px solid #801212;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+#reservierungForm .row {
+    text-align: left;
 }
 
 .form-group {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .form-group label {
@@ -110,7 +135,6 @@ textarea.form-kontrolle {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
     transform: translateY(-3px);
 }
-
 
 .pflichtfelder-text {
     background-color: #801212;
@@ -199,9 +223,20 @@ textarea.form-kontrolle {
         margin: 0px 15px;
     }
 
+    .reservierung-section .col-md-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .reservierung-bild {
+        max-width: 60%;
+        margin: 0px auto 30px auto;
+    }
+    
     .form-container {
-        max-width: 600px;
-        padding: 10px 30px 20px;
+        max-width: 700px;
+        padding: 10px 20px 20px;
+        margin: 0px auto;
     }
 
     .form-group label {
@@ -214,7 +249,7 @@ textarea.form-kontrolle {
     }
 
     .btn-reservieren {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .success-message {
@@ -242,11 +277,23 @@ textarea.form-kontrolle {
         margin: 0px 10px;
         padding: 1px;
     }
+    
+    .reservierung-section .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    
+    .reservierung-bild {
+        max-width: 85%;
+        margin: 0px auto 20px auto;
+    }
 
     .form-container {
         max-width: 100%;
-        padding: 10px 40px 20px;
-        margin-top: 20px;
+        padding: 10px 15px 20px;
+        margin: 10px auto;
+        border:4px solid #801212
     }
 
     .form-group {
@@ -273,15 +320,18 @@ textarea.form-kontrolle {
 
     .btn-reservieren {
         font-size: 16px;
+        padding: 12px 30px;
     }
 
     .pflichtfelder-text {
         font-size: 10px;
+        max-width: 300px;
     }
 
     .success-message {
         border-radius: 15px;
         padding: 25px;
+        border: 4px solid #1d661d;
     }
 
     .success-icon {
