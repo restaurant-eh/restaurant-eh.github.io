@@ -16,6 +16,9 @@
 <body>
     <div id="mySidenav" class="sidenav">
         <button class="closebtn" onclick="closeNav()">&times;</button>
+        <div class="sidenav-menu">
+            <h3><img src="/Bilder/favicon.ico" alt="Menu icon" class="menu-icon"> Menü <img src="/Bilder/favicon.ico" alt="Menu icon" class="menu-icon"></h3>
+        </div>
         <a href="/HTML/Startseite.html">Startseite</a>
         <a href="/HTML/Uber_Uns.html">Über Uns</a>
         <a href="/HTML/Speisekarte.html">Speisekarte</a>
@@ -53,87 +56,97 @@
         <h2 class="section-title">Tisch reservieren</h2>
         <p class="section-untertitle">Sichern Sie sich Ihren Platz bei uns</p>
 
-        <div class="form-container">
-            <p class="pflichtfelder-text">Alle mit " * " gekennzeichneten Felder müssen ausgefüllt werden!</p>
-            <form id="reservierungForm" action="https://formspree.io/f/mwvvknpn" method="POST" target="hidden_iframe" onsubmit="handleFormSubmit(event)">
-                <input type="hidden" name="_subject" value="Neue Tischreservierung">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Vorname: <span class="pflichtfelder">*</span></label>
-                            <input type="text" class="form-kontrolle" id="vorname" name="Vorname:" placeholder="Vorname" pattern="[A-Za-zÀ-ž\s\-']+" title="Nur Buchstaben erlaubt!" minlength="2" maxlength="50" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Nachname: <span class="pflichtfelder">*</span></label>
-                            <input type="text" class="form-kontrolle" id="nachname" name="Nachname:" placeholder="Nachname" pattern="[A-Za-zÀ-ž\s\-']+" title="Nur Buchstaben erlaubt!" minlength="2" maxlength="50" required>
-                        </div>
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img src="/Bilder/Tisch reservierung.jpg" alt="Tische" class="reservierung-bild">
                 </div>
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>E-Mail: <span class="pflichtfelder">*</span></label>
-                            <input type="email" class="form-kontrolle" id="email" name="E-Mail:" placeholder="ihre.email@beispiel.com" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label>Telefonnummer: <span class="pflichtfelder">*</span></label>
-                            <input type="tel" class="form-kontrolle" id="telefon" name="Telefonnummer:" placeholder="+43 660 123 4567" pattern="^[0-9+\s\-()]{6,}$" title="Bitte geben Sie eine gültige Telefonnummer ein!" required>
-                        </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-container">
+                        <p class="pflichtfelder-text">Alle mit " * " gekennzeichneten Felder müssen ausgefüllt werden!</p>
+                        <form id="reservierungForm" action="https://formspree.io/f/mwvvknpn" method="POST" target="hidden_iframe" onsubmit="handleFormSubmit(event)">
+                            <input type="hidden" name="_subject" value="Neue Tischreservierung">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Vorname: <span class="pflichtfelder">*</span></label>
+                                        <input type="text" class="form-kontrolle" id="vorname" name="Vorname:" placeholder="Vorname" pattern="[A-Za-zÀ-ž\s\-']+" title="Nur Buchstaben erlaubt!" minlength="2" maxlength="50" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Nachname: <span class="pflichtfelder">*</span></label>
+                                        <input type="text" class="form-kontrolle" id="nachname" name="Nachname:" placeholder="Nachname" pattern="[A-Za-zÀ-ž\s\-']+" title="Nur Buchstaben erlaubt!" minlength="2" maxlength="50" required>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>E-Mail: <span class="pflichtfelder">*</span></label>
+                                        <input type="email" class="form-kontrolle" id="email" name="E-Mail:" placeholder="ihre.email@beispiel.com" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Telefonnummer: <span class="pflichtfelder">*</span></label>
+                                        <input type="tel" class="form-kontrolle" id="telefon" name="Telefonnummer:" placeholder="+43 660 123 4567" pattern="^[0-9+\s\-()]{6,}$" title="Bitte geben Sie eine gültige Telefonnummer ein!" required>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Datum: <span class="pflichtfelder">*</span></label>
+                                        <input type="date" class="form-kontrolle" id="datum" name="Datum:" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Uhrzeit: <span class="pflichtfelder">*</span></label>
+                                        <input type="time" class="form-kontrolle" id="uhrzeit" name="Uhrzeit:" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label>Anzahl Personen: <span class="pflichtfelder">*</span></label>
+                                        <select class="form-kontrolle" id="personen" name="Personen:" required>
+                                            <option value="">Bitte wählen</option>
+                                            <option value="1">1 Person</option>
+                                            <option value="2">2 Personen</option>
+                                            <option value="3">3 Personen</option>
+                                            <option value="4">4 Personen</option>
+                                            <option value="5">5 Personen</option>
+                                            <option value="6">6 Personen</option>
+                                            <option value="mehr">Mehr als 6 Personen</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="form-group">
+                                <label>Besondere Wünsche / Anmerkungen: </label>
+                                <textarea class="form-kontrolle" id="anmerkungen" name="Anmerkungen:" placeholder="z.B. Allergien, Kinderstuhl, besondere Wünsche..."></textarea>
+                            </div>
+                        
+                            <div class="dsgvo-checkbox">
+                                <input type="checkbox" id="dsgvo" name="Datenschutz:" value="Zugestimmt" required>
+                                <label for="dsgvo">
+                                    Ich stimme zu, dass meine Daten gemäß der
+                                    <a href="/HTML/Datenschutz.html">Datenschutzerklärung</a>
+                                    verarbeitet werden. <span class="pflichtfelder">*</span>
+                                </label>
+                            </div>
+                        
+                            <button type="submit" class="btn-reservieren">Jetzt reservieren</button>
+                        </form>
+                        <iframe name="hidden_iframe" style="display: none;"></iframe>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label>Datum: <span class="pflichtfelder">*</span></label>
-                            <input type="date" class="form-kontrolle" id="datum" name="Datum:" required>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label>Uhrzeit: <span class="pflichtfelder">*</span></label>
-                            <input type="time" class="form-kontrolle" id="uhrzeit" name="Uhrzeit:" required>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label>Anzahl Personen: <span class="pflichtfelder">*</span></label>
-                            <select class="form-kontrolle" id="personen" name="Personen:" required>
-                                <option value="">Bitte wählen</option>
-                                <option value="1">1 Person</option>
-                                <option value="2">2 Personen</option>
-                                <option value="3">3 Personen</option>
-                                <option value="4">4 Personen</option>
-                                <option value="5">5 Personen</option>
-                                <option value="6">6 Personen</option>
-                                <option value="mehr">Mehr als 6 Personen</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label>Besondere Wünsche / Anmerkungen: </label>
-                    <textarea class="form-kontrolle" id="anmerkungen" name="Anmerkungen:" placeholder="z.B. Allergien, Kinderstuhl, besondere Wünsche..."></textarea>
-                </div>
-
-                <div class="dsgvo-checkbox">
-                    <input type="checkbox" id="dsgvo" name="Datenschutz:" value="Zugestimmt" required>
-                    <label for="dsgvo">
-                        Ich stimme zu, dass meine Daten gemäß der
-                        <a href="/HTML/Datenschutz.html">Datenschutzerklärung</a>
-                        verarbeitet werden. <span class="pflichtfelder">*</span>
-                    </label>
-                </div>
-
-                <button type="submit" class="btn-reservieren">Jetzt reservieren</button>
-            </form>
-            <iframe name="hidden_iframe" style="display: none;"></iframe>
+            </div>
         </div>
 
         <div class="success-rückmeldung" id="successRueckmeldung">
