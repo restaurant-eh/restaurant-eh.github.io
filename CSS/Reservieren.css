@@ -295,17 +295,27 @@ textarea.form-kontrolle {
 
     .form-container {
         max-width: 100%;
-        padding: 10px 15px 20px;
-        margin: 10px auto;
+        padding: 10px 10px 10px;
+        margin: 0px auto;
         border:4px solid #801212
     }
 
     .form-container .row {
-        padding: 10px 10px 0px;
+        padding: 0px 0px 0px;
+        margin: 5px;
     }
 
     .form-group {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+    }
+
+    .row .col-md-6 {
+        padding: 5px 0px;
+        margin-top: 0px;
+    }
+
+    .col-md-4 {
+        padding: 5px 0px;
     }
 
     .form-group label {
@@ -324,11 +334,14 @@ textarea.form-kontrolle {
 
     .dsgvo-checkbox {
         font-size: 10px;
+        margin: 15px 5px;
+        text-align: left;
     }
 
     .btn-reservieren {
         font-size: 16px;
         padding: 12px 30px;
+        margin-bottom: 5px;
     }
 
     .pflichtfelder-text {

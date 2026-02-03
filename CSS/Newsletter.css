@@ -329,11 +329,12 @@
 
     .newsletter-form {
         border-radius: 10px;
-        padding: 10px 10px 30px;
+        padding: 10px 15px 0px;
+        text-align: center;
     }
 
     .form-group label {
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 10px;
     }
 
@@ -350,12 +351,13 @@
     .dsgvo-checkbox {
         margin: 15px auto;
         font-size: 10px;
+        text-align: left;
     }
 
     .btn-anmelden {
         padding: 13px 20px;
         font-size: 11px;
-        margin-top: 0px;
+        margin: 0px auto;
     }
 
     .pflichtfelder-text {
