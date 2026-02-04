@@ -333,13 +333,21 @@
         text-align: center;
     }
 
-    .form-group label {
-        font-size: 12px;
+    .form-title {
+        margin: 10px 0px;
+    }
+
+    .form-untertitle {
         margin-bottom: 10px;
     }
 
-    .form-kontrolle {
+    .form-group label {
+        font-size: 12px;
+        margin-bottom: 1px;
         padding: 5px;
+    }
+
+    .form-kontrolle {
         font-size: 10px;
         box-sizing: border-box;
     }
